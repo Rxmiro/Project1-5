@@ -1,0 +1,131 @@
+body {
+    background-color: #4074ab;
+    color: whitesmoke;
+}
+
+#container {
+    width: 90%;
+    margin: 15px auto;
+    border: 5px solid;
+    box-shadow: 0 4px 10px rgba(255, 165, 0, 0.6), 0 6px 15px rgba(255, 140, 0, 0.3);
+    background-color: #4c5a69;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 0;
+}
+
+.navbar {
+    background-color: palevioletred;
+    width: 100%;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    display: block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.box {
+    text-align: center;
+}
+
+.box h3 {
+    color: white;
+    text-align: center;
+}
+
+main {
+    color: whitesmoke;
+}
+
+aside {
+    text-align: center;
+}
+
+aside h3 {
+    color: white;
+}
+
+aside img {
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 3px solid gray;
+}
+
+.accordion-button {
+    background-color: #4074ab;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid transparent;
+    border-radius: 0.25rem;
+    padding: 10px;
+}
+
+.accordion-button:hover {
+    background-color: #255b8a;
+    color: white;
+}
+
+.accordion-item {
+    border: 1px solid #ffffff33;
+    margin-bottom: 10px;
+}
+
+.accordion-header {
+    text-align: center;
+}
+
+.accordion-body {
+    background-color: #4c5a69;
+    color: whitesmoke;
+    padding: 15px;
+}
+
+.accordion-body ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.accordion-body ul li {
+    padding: 8px 0;
+    text-align: center;
+}
